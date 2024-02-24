@@ -1,1 +1,1 @@
-# ClimateFriendlyTravelAdvisor
+# Climate Friendly Travel Advisor
