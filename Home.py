@@ -5,7 +5,15 @@ import streamlit as st
 import googlemaps
 from datetime import datetime
 
-gmaps = googlemaps.Client(key='Add Your Key here')
+
+
+st.title("🌎 Climate Friendly Travel Advisor📍")
+st.header("By Wilber Jiménez Hernández")
+
+
+api_key1 = st.secrets["GOOGLEMAPS_API_KEY"]
+
+gmaps = googlemaps.Client(key=api_key1)
 
 # Geocoding an address
 geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
