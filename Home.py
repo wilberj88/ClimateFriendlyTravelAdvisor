@@ -24,3 +24,5 @@ with st.sidebar:
         "End Point 👇")
     when = st.text_input(
         "When 👇")
+    st.button("Calculate Alternatives", type="primary")
+   
