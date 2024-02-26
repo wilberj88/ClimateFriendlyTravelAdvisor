@@ -22,7 +22,6 @@ with st.sidebar:
         "Origin Point 👇")
     end = st.text_input(
         "End Point 👇")
-    when = st.text_input(
-        "When 👇")
+    when = st.time_input('Starts When?', value=None)
     st.button("Calculate CO2 Alternatives", type="primary")
    
