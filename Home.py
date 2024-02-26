@@ -22,9 +22,7 @@ def new_york():
     return components.html(html, height=500,width=500)
 
 new_york()
-snippet = embed.embed_snippet(views=map)
-html = embed.html_template.format(title="", snippet=snippet)
-components.html(html, height=500,width=500)
+
 
 
 api_key1 = st.secrets["GOOGLEMAPS_API_KEY"]
