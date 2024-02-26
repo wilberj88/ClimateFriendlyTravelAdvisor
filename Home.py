@@ -5,10 +5,21 @@ from datetime import datetime
 from ipywidgets import embed
 import streamlit.components.v1 as components
 
-
+# set page layout
+st.set_page_config(
+    page_title="Climate Friendly Travel Advisor",
+    page_icon="🌍",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 st.title("🌎 Climate Friendly Travel Advisor📍")
-st.header("By Wilber Jiménez Hernández")
+
+with st.sidebar:
+    st.header("Plan your Trip")
+    st.subheader("& discuss with me 🤖")
+    st.text_input(
+        "Origin Point 👇")
 
 def new_york():
 
