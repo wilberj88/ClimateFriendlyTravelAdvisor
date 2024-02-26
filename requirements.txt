@@ -2,3 +2,4 @@ streamlit
 googlemaps
 ipywidgets
 gmaps
+crewai
