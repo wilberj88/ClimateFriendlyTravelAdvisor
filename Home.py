@@ -1,5 +1,5 @@
 import streamlit as st
-import googlemaps
+import googlemaps as gmaps
 from datetime import datetime
 from ipywidgets import embed
 import streamlit.components.v1 as components
