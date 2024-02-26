@@ -1,19 +1,23 @@
 import streamlit as st
-
-#GoogleMapsApiRouteKey=AIzaSyDBgNgcuFP8Swarp8gfR-PxLM8-Wm90774
-
 import googlemaps
 from datetime import datetime
+from ipywidgets import embed
+import streamlit.components.v1 as components
 
 
 
 st.title("🌎 Climate Friendly Travel Advisor📍")
 st.header("By Wilber Jiménez Hernández")
 
+snippet = embed.embed_snippet(views=map)
+html = embed.html_template.format(title="", snippet=snippet)
+components.html(html, height=500,width=500)
+
 
 api_key1 = st.secrets["GOOGLEMAPS_API_KEY"]
 
 gmaps = googlemaps.Client(key=api_key1)
+
 
 # Geocoding an address
 geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
