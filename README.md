@@ -27,6 +27,10 @@ Road Map:
 5) Acceptance Tests
 6) Deploy to Production
 
+Challenge
+1) Latency
+2) Budget
+
 TEST Automation
 1. Initial Setup and Main Interface:
 Begin with the standard installation and import conventions.
