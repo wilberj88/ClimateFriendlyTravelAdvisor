@@ -33,7 +33,7 @@ with st.sidebar:
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "assistant", "content": "Welcome to Trip Advisor! Let me know where do you plan traveling?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome to Trip Advisor! From San Francisco let me know where do you plan to travel?"}]
 
 # Display or clear chat messages
 for message in st.session_state.messages:
@@ -46,7 +46,7 @@ st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
 # Function for generating LLaMA2 response. Refactored from https://github.com/a16z-infra/llama2-chatbot
 def generate_llama2_response(prompt_input):
-    string_dialogue = "You are a helpful assistant to give advices about travel with costs in time, speed and carbon emissions. You ask the 'User' to know how is the desire trip. You only respond once as 'Assistant'."
+    string_dialogue = "You are a helpful assistant to give advices about travel from San Francito to other cities. You MUST ask the 'User' to know how is the desire trip. You only respond once as 'Assistant'."
     for dict_message in st.session_state.messages:
         if dict_message["role"] == "user":
             string_dialogue += "User: " + dict_message["content"] + "\n\n"
