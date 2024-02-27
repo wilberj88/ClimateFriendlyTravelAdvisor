@@ -4,3 +4,14 @@ ipywidgets
 gmaps
 crewai
 phidata
+openai
+duckdb
+duckduckgo-search
+pydantic
+pandas
+wikipedia
+sqlalchemy
+pgvector
+pypdf
+psycopg
+arxiv
