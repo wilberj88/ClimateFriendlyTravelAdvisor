@@ -3,3 +3,4 @@ googlemaps
 ipywidgets
 gmaps
 crewai
+phidata
