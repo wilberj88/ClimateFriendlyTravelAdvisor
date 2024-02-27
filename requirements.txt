@@ -15,3 +15,15 @@ pgvector
 pypdf
 psycopg
 arxiv
+langchain
+chromadb==0.4.22
+beautifulsoup4
+langchain_community
+langchain_core
+langchain_openai
+pysqlite3-binary
+pypdf
+faiss-gpu
+PyPDF2
+unstructured
+replicate
