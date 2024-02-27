@@ -28,7 +28,7 @@ Road Map:
 6) Deploy to Production
 
 Challenge
-1) Latency
+1) Latency: edge computing in place with Local Ollama.
 2) Budget
 
 TEST Automation
