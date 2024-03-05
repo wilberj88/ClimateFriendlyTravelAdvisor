@@ -30,7 +30,7 @@ factor_confort = {
 
 
 def emissions():
-    
+    pass
 
 def turn_on_bot():
     pass
