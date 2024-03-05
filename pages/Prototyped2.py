@@ -14,4 +14,4 @@ with st.sidebar:
     st.subheader ('Empowered by OpenAI-ChatGPT-API')
     origin = st.text_input('Enter origin:')
     destiny = st.text_input('Enter destiny:')
-    activate_advisor = st.button.('Clear Chat History', on_click=turn_on_bot)
+    activate_advisor = st.button('Clear Chat History', on_click=turn_on_bot)
