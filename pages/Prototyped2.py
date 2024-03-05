@@ -41,5 +41,5 @@ with st.sidebar:
     st.subheader ('Empowered by Langchain-OpenAI-ChatGPT-API')
     origin = st.text_input('Enter origin:')
     destiny = st.text_input('Enter destiny:')
-    prefer_mode = st.selectbox("Prefer mode transport:", modes)
+    prefer_mode = st.selectbox("Prefer mode transport:", modes, index=None)
     activate_advisor = st.button('🤖 Ask Advisor!', on_click=turn_on_bot)
