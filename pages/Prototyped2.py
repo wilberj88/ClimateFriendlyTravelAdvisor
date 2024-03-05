@@ -5,7 +5,7 @@ import os
 # App title
 st.set_page_config(page_title="🌎 Climate Friendly Travel Advisor")
 
-def turn_on_bot:
+def turn_on_bot():
     pass
 
 with st.sidebar:
