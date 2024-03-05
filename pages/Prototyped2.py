@@ -11,7 +11,7 @@ def turn_on_bot():
 with st.sidebar:
     st.title('🌎 Climate Friendly Travel Advisor')
     st.header('Prototyped 2')
-    st.subheader ('Empowered by OpenAI-ChatGPT-API')
+    st.subheader ('Empowered by Langchain-OpenAI-ChatGPT-API')
     origin = st.text_input('Enter origin:')
     destiny = st.text_input('Enter destiny:')
-    activate_advisor = st.button('Clear Chat History', on_click=turn_on_bot)
+    activate_advisor = st.button('🤖 Ask Advisor!', on_click=turn_on_bot)
