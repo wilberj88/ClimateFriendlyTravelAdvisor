@@ -43,7 +43,7 @@ def get_response(user_query, chat_history):
 # session state
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        AIMessage(content="Welcome to 🌎 Climate Friendly Travel Advisor! From San Francisco let me know where do you plan to travel?"),
+        AIMessage(content="🤖 Welcome! From San Francisco let me know where do you plan to travel?"),
     ]
 
     
