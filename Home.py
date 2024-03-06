@@ -4,19 +4,19 @@ from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
-
-
-api_key1 = st.secrets["OPENAI_API_KEY"]
-
-# app config
+# APP CONFIG
 st.set_page_config(page_title="Climate Friendly Travel Advisor", page_icon="🤖")
 
+# APIKEY_OPENAI
+api_key1 = st.secrets["OPENAI_API_KEY"]
+
+# TITLE & Headers
 st.title('🌎 Open Earth Fundation')
 st.title('Climate Friendly Travel Advisor 🤖')
 st.subheader ('Empowered by 🦜 LangChain 🔗 + OpenAI')
 
+#FUNCTIONS
 def get_response(user_query, chat_history):
-
     template = """
     You area helpful assitant who generates travel recommendations to any city in the world.
     You analize which options of transport are possible and the expected distance, time, speed and emissions of the travel.
@@ -42,14 +42,14 @@ def get_response(user_query, chat_history):
         "user_question": user_query,
     })
 
-# session state
+# HANDLE SESSION STATE
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
         AIMessage(content="Welcome! 🤖 let me know where do you plan to travel?"),
     ]
 
     
-# conversation
+# FRONTEND CONVERSATION 
 for message in st.session_state.chat_history:
     if isinstance(message, AIMessage):
         with st.chat_message("AI"):
@@ -58,7 +58,7 @@ for message in st.session_state.chat_history:
         with st.chat_message("Human"):
             st.write(message.content)
 
-# user input
+# USER INPUT
 user_query = st.chat_input("Type your message here...")
 if user_query is not None and user_query != "":
     st.session_state.chat_history.append(HumanMessage(content=user_query))
