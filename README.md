@@ -4,6 +4,8 @@ Build principal prototype with OpenAI (the LLM), LangChain (the LLM framework), 
 Visit the web app services: (https://climatefriendlytraveladvisor.streamlit.app/)
 By [@wilberj88](https://github.com/wilberj88).
 
+![image](https://github.com/wilberj88/ClimateFriendlyTravelAdvisor/assets/49035216/2c0b2f40-bc5b-4b2c-a393-5e1c5ffb67c1)
+
 ## Prototypes
 
 ### Principal: LangChain + OpenAI 
@@ -13,7 +15,6 @@ By [@wilberj88](https://github.com/wilberj88).
 - ✅ Not Hallucination
 - ❌ Not Open Source Compatibility
 
-![image](https://github.com/wilberj88/ClimateFriendlyTravelAdvisor/assets/49035216/51193429-097d-44a6-94be-0c851c119105)
 
 ### Setup and Installation
 - Install Dependencies:'pip install streamlit'
