@@ -2,7 +2,7 @@ import streamlit as st
 import replicate
 import os
 
-# App title
+# APP CONFIG
 st.set_page_config(page_title="🌎 Climate Friendly Travel Advisor")
 
 # Replicate Credentials
