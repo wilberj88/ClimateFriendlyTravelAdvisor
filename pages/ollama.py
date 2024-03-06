@@ -20,8 +20,8 @@ with st.sidebar:
             st.success('Proceed to entering your prompt message!', icon='👉')
     os.environ['REPLICATE_API_TOKEN'] = replicate_api
 
-    st.subheader('Models and parameters')
-    selected_model = st.sidebar.selectbox('Choose a Llama2 model', ['Llama2-7B', 'Llama2-13B'], key='selected_model')
+    st.subheader('Llama2🦙 Models and parameters')
+    selected_model = st.sidebar.selectbox('Choose', ['Llama2-7B', 'Llama2-13B'], key='selected_model')
     if selected_model == 'Llama2-7B':
         llm = 'a16z-infra/llama7b-v2-chat:4f0a4744c7295c024a1de15e1a63c880d3da035fa1f49bfd344fe076074c8eea'
     elif selected_model == 'Llama2-13B':
@@ -44,7 +44,7 @@ def clear_chat_history():
     st.session_state.messages = [{"role": "assistant", "content": "Welcome to 🌎 Climate Friendly Travel Advisor! Let me know where do you plan traveling?"}]
 st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
-# Function for generating LLaMA2 response. Refactored from https://github.com/a16z-infra/llama2-chatbot
+# Function for generating LLaMA2 response
 def generate_llama2_response(prompt_input):
     string_dialogue = "You are a helpful assistant to give advices about travel from San Francisco to the city choose by the user. You MUST ask the 'User' to know how is the desire trip. You only respond once as 'Assistant'."
     for dict_message in st.session_state.messages:
