@@ -17,6 +17,7 @@ By [@wilberj88](https://github.com/wilberj88).
 
 ### Setup and Installation
 - Install Dependencies:'pip install streamlit'
+- Clone this repository
 - Set Up OpenAPI Key: Or use the key stored securely in Streamlit's secrets management: streamlit/secrets.toml
 - Run the App: Navigate to the app's directory and run:'streamlit run Home.py'
 
