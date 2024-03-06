@@ -20,7 +20,7 @@ By [@wilberj88](https://github.com/wilberj88).
 - Run the App: Navigate to the app's directory and run:'streamlit run Home.py'
 
 
-### Alternative: Ollama 
+### Alternative prototyped: Ollama 
 - ❌ High Latency
 - ❌ Slow user succes
 - ❌ No Budget
