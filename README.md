@@ -16,7 +16,7 @@ By [@wilberj88](https://github.com/wilberj88).
 
 ### Setup and Installation
 Install Dependencies:
-pip install streamlit
+'pip install streamlit'
 
 # Set Up OpenAPI Key:
 Ensure you have an OpenAPI key. Or use the key stored securely in Streamlit's secrets management
@@ -25,8 +25,7 @@ Ensure you have an OpenAPI key. Or use the key stored securely in Streamlit's se
 OPENAI_API_KEY="your_api_key_here"
 
 # Run the App: Navigate to the app's directory and run:
-
-streamlit run Home.py
+'streamlit run Home.py'
 
 
 ### Alternative: Ollama 
