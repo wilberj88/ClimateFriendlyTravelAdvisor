@@ -11,15 +11,16 @@ api_key1 = st.secrets["OPENAI_API_KEY"]
 # app config
 st.set_page_config(page_title="Climate Friendly Travel Advisor", page_icon="🤖")
 
-st.title('🌎 Climate Friendly Travel Advisor')
+st.title('🌎 Open Earth Fundation')
+st.title('Climate Friendly Travel Advisor 🤖')
 st.subheader ('Empowered by 🦜 LangChain 🔗 + OpenAI')
 
 def get_response(user_query, chat_history):
 
     template = """
-    You area helpful assitant who generates travel recommendations from San Francisco to any city in the world.
+    You area helpful assitant who generates travel recommendations to any city in the world.
     You analize which options of transport are possible and the expected distance, time, speed and emissions of the travel.
-    You MUST ask the user where him o her are planning to travel and express your analisis in terms of modes of transport.
+    You MUST ask the user where him o her are and where are planning to travel and express your analisis in terms of modes of transport.
     You know that train has lower emissions than car and than fliying.
     You MUST continue the conversation with alternative questions like what the user would like to eat in the destiny of the travel to give a better advise.
 
@@ -44,7 +45,7 @@ def get_response(user_query, chat_history):
 # session state
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        AIMessage(content="Welcome! 🤖 From San Francisco let me know where do you plan to travel?"),
+        AIMessage(content="Welcome! 🤖 let me know where do you plan to travel?"),
     ]
 
     
