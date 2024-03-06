@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 api_key1 = st.secrets["OPENAI_API_KEY"]
 
 # app config
-st.set_page_config(page_title="Streaming bot", page_icon="🤖")
+st.set_page_config(page_title="Climate Friendly Travel Advisor", page_icon="🤖")
 
 st.title('🌎 Climate Friendly Travel Advisor')
 st.subheader ('Empowered by 🦜 LangChain 🔗 + OpenAI')
