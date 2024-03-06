@@ -12,6 +12,8 @@ api_gmaps = st.secrets["GOOGLEMAPS_API_KEY"]
 
 gmaps = googlemaps.Client(key=api_gmaps)
 
+
+#Try Example 1
 # Geocoding an address
 geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
 
