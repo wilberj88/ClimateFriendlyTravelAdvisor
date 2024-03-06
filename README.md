@@ -23,7 +23,7 @@ By [@wilberj88](https://github.com/wilberj88).
 ### Alternative prototyped: Ollama 
 - ❌ High Latency
 - ❌ Slow user succes
-- ❌ No Budget
+- ✅ No Budget
 - ✅ Open Source Compatibility 
 
 
