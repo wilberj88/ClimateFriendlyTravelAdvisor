@@ -42,7 +42,7 @@ def get_response(user_query, chat_history):
         "user_question": user_query,
     })
 
-# HANDLE SESSION STATE
+# HANDLE SESSION STATE TO FOLLOW UP CONVERSATION
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
         AIMessage(content="Welcome! 🤖 let me know where do you plan to travel?"),
