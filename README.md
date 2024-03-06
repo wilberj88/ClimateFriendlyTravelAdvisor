@@ -14,6 +14,21 @@ By [@wilberj88](https://github.com/wilberj88).
 
 ![image](https://github.com/wilberj88/ClimateFriendlyTravelAdvisor/assets/49035216/51193429-097d-44a6-94be-0c851c119105)
 
+### Setup and Installation
+Install Dependencies:
+pip install streamlit
+
+# Set Up OpenAPI Key:
+Ensure you have an OpenAPI key. Or use the key stored securely in Streamlit's secrets management
+
+# .streamlit/secrets.toml
+OPENAI_API_KEY="your_api_key_here"
+
+# Run the App: Navigate to the app's directory and run:
+
+streamlit run Home.py
+
+
 ### Alternative: Ollama 
 - ❌ High Latency
 - ❌ Slow user succes
