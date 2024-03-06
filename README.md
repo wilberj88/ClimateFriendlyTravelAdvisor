@@ -9,7 +9,8 @@ By [@wilberj88](https://github.com/wilberj88).
 ### Principal: LangChain + OpenAI 
 - ✅ Low Latency 
 - ✅ Quickliest user succes 
-- ✅ Low Budget 
+- ✅ Low Budget
+- ✅ Not Hallucination
 - ❌ Not Open Source Compatibility
 
 ![image](https://github.com/wilberj88/ClimateFriendlyTravelAdvisor/assets/49035216/51193429-097d-44a6-94be-0c851c119105)
@@ -23,6 +24,7 @@ By [@wilberj88](https://github.com/wilberj88).
 ### Alternative prototyped: Ollama 
 - ❌ High Latency
 - ❌ Slow user succes
+- ❌ High Hallucination
 - ✅ No Budget
 - ✅ Open Source Compatibility 
 
