@@ -1,5 +1,4 @@
 # Climate Friendly Travel Advisor
-## Introduction
 This project is designed to facilitate the adoption for more sustainable transport.
 Visit the web app services: (https://climatefriendlytraveladvisor.streamlit.app/)
 By [@wilberj88](https://github.com/wilberj88).
