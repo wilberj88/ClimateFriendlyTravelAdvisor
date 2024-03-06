@@ -15,7 +15,7 @@ st.title('🌎 Open Earth Fundation')
 st.title('Climate Friendly Travel Advisor 🤖')
 st.subheader ('Empowered by 🦜 LangChain 🔗 + OpenAI')
 
-#FUNCTIONS
+# BACKEND FUNCTIONS
 def get_response(user_query, chat_history):
     template = """
     You area helpful assitant who generates travel recommendations to any city in the world.
