@@ -1,5 +1,6 @@
 # Climate Friendly Travel Advisor
 This project is designed to facilitate the adoption for more sustainable transport.
+Build principal prototype with OpenAI (the LLM), LangChain (the LLM framework), and Streamlit (the web framework)
 Visit the web app services: (https://climatefriendlytraveladvisor.streamlit.app/)
 By [@wilberj88](https://github.com/wilberj88).
 
@@ -20,5 +21,5 @@ By [@wilberj88](https://github.com/wilberj88).
 
 
 ### Potential Road Map´s Next Steps:
-- Incorporate Routes & Maps🗺️ 
+- Incorporate Callbacks for Routes & Maps🗺️ 
 - Consider including Crew AI (more versability): [Trip Planner](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
