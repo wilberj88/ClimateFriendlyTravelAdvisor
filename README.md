@@ -32,5 +32,6 @@ By [@wilberj88](https://github.com/wilberj88).
 
 
 ### Potential Road Map´s Next Steps:
-- Incorporate Callbacks for Routes & Maps🗺️ 
+- Incorporate Callbacks for Routes & Maps🗺️
+- RAG for Standard Emissions
 - Consider including Crew AI (more versability): [Trip Planner](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
